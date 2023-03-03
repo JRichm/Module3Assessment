@@ -88,7 +88,7 @@ input {
 	display: block;
 }
 
-.fav-btns {
+button {
 	padding: 8px;
 	border-radius: 8px;
 	border: none;
@@ -96,7 +96,7 @@ input {
 	color: white;
 }
 
-.fav-btns:hover {
+button:hover {
 	background-color: crimson;
 }
 
@@ -123,4 +123,14 @@ input {
 
 .picbox {
 	height: 200px;
+}
+
+#randomForm {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+#randomForm button {
+	margin-top: 25px;
 }
