@@ -7,6 +7,61 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+content {
+	display:flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+img {
+	max-width: 260px;
+}
+
+
+
+
+#profile-body {
+	max-width: 800px;
+	width: 800px;
+}
+
+.bod {
+	display:flex;
+	justify-content: space-evenly;
+	width: 800px;
+}
+
+#cat-picture {
+	background-color: black;
+}
+
+#more-info {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	width: 350px;
+}
+
+#more-info p {
+	width: 260;
+	text-align: center;
+}
+
+#img-container {
+	display: flex;
+	height: 260px;
+	align-items: center;
+}
+
+#note {
+	margin-top: 120px;
+}
+
+.hidden {
+	color: transparent;
+}
+
+
 nav {
 	border-bottom: 2px solid orange;
 }
@@ -21,7 +76,7 @@ ol {
 }
 
 a {
-	color: orange;
+	color: crimson;
 }
 
 a:visited {
@@ -31,10 +86,6 @@ a:visited {
 
 input {
 	display: block;
-}
-
-img {
-	max-width: 300px;
 }
 
 .fav-btns {
@@ -51,4 +102,25 @@ img {
 
 .button-options {
 	display: flex;
+}
+
+.picture-box {
+	display: flex;
+	flex-flow: column;
+}
+
+.boxes {
+	display: flex;
+}
+
+.box {
+	margin: 25px;
+}
+
+.picture-box p {
+	max-width: 100px;
+}
+
+.picbox {
+	height: 200px;
 }
